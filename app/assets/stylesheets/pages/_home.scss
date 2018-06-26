@@ -1,0 +1,295 @@
+// Specific CSS for your home-page
+html {
+  overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  margin-bottom: 0 !important;
+}
+
+p {
+color: white;
+font-size: 20px;
+}
+
+h1 {
+
+  font-size: 50px;
+}
+
+h2{
+
+  font-size: 30px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 25px "Lato", sans-serif;
+  color: #111;
+}
+
+h4 {
+
+  font-size: 25px;
+}
+
+
+
+.banner-content {
+  color: white;
+}
+
+.banner-content-video {
+  color: white;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  /* opacity: 0.65; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  // background-image: url("img_parallax.jpg");
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.bgimg-2 {
+  // background-image: url("img_parallax2.jpg");
+  min-height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:0px;
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.cta-video {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.bgimg-3 {
+  // background-image: url("img_parallax3.jpg");
+  min-height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// .caption {
+//   position: absolute;
+//   align-items: center;
+//   width: 100%;
+//   text-align: center;
+//   display: block;
+//   justify-content: center;
+//   color: white;
+// }
+
+
+// .caption h1 {
+//   font-size: 50px;
+//   font-weight: bold;
+//   text-shadow: 0px 1px rgba(0, 0, 0, 1);
+// }
+// .caption p {
+//   font-size: 25px;
+//   font-weight: lighter;
+//   color: rgb(255, 255, 255);
+//   opacity: 1;
+//   margin-bottom: 30px;
+// }
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padded {
+  padding: 0px 0;
+  margin-top: 30px;
+
+}
+
+.chatbot img{
+  width: 80%;
+}
+
+.image-ia {
+  width: 60% !important;
+}
+
+.chatbot-text {
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 0px;
+  }
+}
+
+.features img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.features img:hover  {
+  margin-top: -5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.features h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.features p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.features_key_nb img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.features_key_nb img:hover  {
+  margin-top: -5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.features_key_nb h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color:#0a0a0b;
+}
+.features_key_nb p {
+  font-size: 15px;
+  font-weight: lighter;
+  color:#0a0a0b;
+}
+
+.features_tem img {
+  width: 100%;
+}
+
+.features_tem img:hover  {
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+
+.count
+{
+  line-height: 100px;
+  color:black;
+  margin-left:30px;
+  font-size:25px;
+}
+
+.people img {
+  width: 95%;
+  border-radius: 50%;
+}
+
+.people img:hover  {
+  margin-top: -5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.people h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color:#fff;
+  font-style: italic;
+  padding: 10px;
+}
+.people p {
+  font-size: 15px;
+  font-weight: lighter;
+  color:#fff;
+}
+
+.beta h4 {
+  font-size: 25px;
+}
+
+.beta-container h4{
+  width:100%;
+  height:100%;
+  color: #469AE0;
+  margin-top: 15px;
+  padding: 25px;
+  line-height: 1.6;
+  font-size: 20px;
+  opacity: 1;
+  text-align: justify;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.modal-body-beta {
+  background: transparent;
+}
+
+.modal-content-beta {
+  background: transparent;
+}

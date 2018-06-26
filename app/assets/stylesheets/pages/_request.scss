@@ -1,0 +1,180 @@
+.banner-request {
+  height: 300px;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+#sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #384047;
+    width: 15%;
+    height: 100vh;
+
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    padding: 20px;
+
+    overflow: visible;
+}
+
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin:5px;
+
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+  padding: 15px;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+/* Responsive layout behavior */
+
+@media (max-width: 768px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
+}
+
+.tab-content {
+  margin-left: 10px;
+  top: 370px;
+  width: 85%;
+  height: 100vh;
+}
+
+body{
+  background-color: #EDEFF0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #DD5555;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+/* First simple components */
+
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.img-circle{
+  border-radius: 50%;
+}
+.text-center{
+  text-align: center;
+}
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+.btn-red{
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn-red:hover{
+  background-color: #C61414;
+  color: white;
+}
+
+/* Specific CSS rules */
+
+#img-profile{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+#movies{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#movies img{
+  width: 80px;
+}
+#movies td{
+  padding: 10px;
+}
+
+
+// ############infos generales#############
+
+
+
+
+
+
